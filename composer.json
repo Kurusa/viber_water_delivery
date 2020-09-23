@@ -1,0 +1,20 @@
+{
+  "name": "kurusa/water",
+  "authors": [
+    {
+      "name": "KurusaChan",
+      "email": "kurusa03@gmail.com"
+    }
+  ],
+  "require": {
+    "bogdaan/viber-bot-php": "^0.0.13",
+    "vlucas/phpdotenv": "^4.1",
+    "illuminate/database": "^7.6",
+    "phpmailer/phpmailer": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  }
+}
